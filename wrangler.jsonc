@@ -13,7 +13,20 @@
 	"upload_source_maps": true,
 	"compatibility_flags": [
 		"nodejs_compat"
-	]
+	],
+	"kv_namespaces": [
+		{
+			"binding": "CONFIG_KV",
+			"id": "9defbd957dcd4ef792cdc26274c44154"
+		},
+		{
+			"binding": "LOG_KV",
+			"id": "6378356aa0844a45a70a51528ea03a97"
+		}
+	],
+	"vars": {
+		"API_TOKEN": "suansuan"
+	}
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
